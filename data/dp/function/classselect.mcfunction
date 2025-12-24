@@ -1,0 +1,1 @@
+execute if entity @p[limit=1,tag=game,nbt={Inventory:[{id:"minecraft:player_head",components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NzdmMmU0Yzc2MDJhNjNjNDRlYmRhZTUzNzBlMjQ4MWM1NWY2MzQ1NDY5ODllODA1M2VkZTU4NTIwODg0NiJ9fX0="}]}}}]}] run function dp:classes/guard/guardselect

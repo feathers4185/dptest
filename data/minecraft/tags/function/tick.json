@@ -2,6 +2,7 @@
     "values":[
       "dp:tick",
       "dp:heroselect",
-      "dp:petselect"
+      "dp:petselect",
+      "dp:classselect"
     ]
   }
