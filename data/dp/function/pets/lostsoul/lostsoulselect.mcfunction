@@ -1,0 +1,5 @@
+tag @s[tag=lostsoulO] add lostsoul1
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=lostsoulO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!lostsoulO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!lostsoulO] run item replace block -37 -54 -52 container.5 with minecraft:player_head[minecraft:custom_name={"text":"Lost Soul","italic":false},minecraft:lore=[{"text":"Blinds Nearby Enemies","italic":false}],profile={id:[I;-1316359482,-455326047,-1242964219,266158377],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUwZGRmNDEyYzYwYTdiZWY4NGE3YjhlNmZjYTcxNGQ0ODgyYWYxMTE4ZTk3NDAwYzg4ZDExYmE1YTk0N2RjYSJ9fX0="}]}] 1

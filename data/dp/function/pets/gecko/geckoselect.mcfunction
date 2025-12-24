@@ -1,0 +1,5 @@
+tag @s[tag=geckoO] add gecko
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=geckoO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!geckoO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!geckoO] run item replace block -37 -54 -52 container.20 with minecraft:player_head[minecraft:custom_name={"text":"Mystic Gecko","italic":false},minecraft:lore=[{"text":"Grants Climbing Skills","color":"dark_purple","italic":false}],profile={id:[I;-1088511364,1004948801,-1829452966,-2145228050],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxMmUyNjdjZmJmOWQ2ZGIxNDA2MmEwNGE1ZmY5YjY5ZmJjZjdlY2NjNDk0NzhkNDUyMjkxM2UzNzE2ZDQyNCJ9fX0="}]}] 1

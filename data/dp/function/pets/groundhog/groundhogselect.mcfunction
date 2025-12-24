@@ -1,0 +1,5 @@
+tag @s[tag=groundhogO] add groundhog
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=groundhogO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!groundhogO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!groundhogO] run item replace block -35 -54 -52 container.26 with minecraft:player_head[minecraft:custom_name={"text":"Groundhog","italic":false},minecraft:lore=[{"text":"Rewinds a Small Amount of Time","color":"dark_purple","italic":false}],profile={id:[I;1314566696,-24491171,-2082477419,-1667916794],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc5ZmUwNTRhOTIzZGZiODg0ZjZjNjAzMTk4MmJkMDlhY2IwNDQ2Y2Q0NzExYjRjYjQzM2JlOTA0ZDVkNWJmZCJ9fX0="}]}] 1

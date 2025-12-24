@@ -1,0 +1,5 @@
+tag @s[tag=hammerheadO] add hammerhead
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=hammerheadO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!hammerheadO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!hammerheadO] run item replace block -35 -54 -52 container.24 with minecraft:player_head[minecraft:custom_name={"text":"Hammerhead Shark","italic":false},minecraft:lore=[{"text":"Increases Attack Knockback","color":"dark_purple","italic":false}],profile={id:[I;-295488661,-385725052,-2144649470,287408239],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYzOTRjYzM2NDZhM2VkYzIzMmZiNjkyMDU1YTQ0ZmY1NzdlMzVjOWNlN2MzYjAzNzgxNTUwOTFjYzhiOTk4ZSJ9fX0="}]}] 1

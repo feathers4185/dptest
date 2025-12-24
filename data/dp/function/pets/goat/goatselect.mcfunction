@@ -1,0 +1,5 @@
+tag @s[tag=goatO] add goat
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=goatO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!goatO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!goatO] run item replace block -35 -54 -52 container.8 with minecraft:player_head[minecraft:custom_name='{"text":"Goat","italic":false}',minecraft:lore=['{"text":"Gives minor buffs repeatedly","italic":false}'],profile={id:[I;388243247,-1701228743,-1608937718,-758832558],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWExNmExZTQzNDQ3M2RkNTUwOTUzYzY3MTBkM2Q2NzQ5NmY1ODAxMTYyYjg3YWVmMThlNGE5N2M2OTVjN2Y5NCJ9fX0="}]}] 1

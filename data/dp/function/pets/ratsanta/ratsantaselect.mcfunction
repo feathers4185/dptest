@@ -1,0 +1,5 @@
+tag @s[tag=ratsantaO] add ratsanta
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=ratsantaO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!ratsantaO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!ratsantaO] run item replace block -37 -54 -52 container.16 with minecraft:player_head[minecraft:custom_name={"text":"Rat Santa","italic":false},minecraft:lore=[{"text":"Gives Gifts","color":"dark_purple","italic":false}],profile={id:[I;1314566696,-24491171,-2082477419,-1667916794],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3ODdlODM4MTIwYzZjY2UwNTcwMTU0YTQwNmFkZWVmZWMzZjA0YWZkYWVjOTE1MDY3ZGI4MjliMzU4ODI3MCJ9fX0="}]}] 1

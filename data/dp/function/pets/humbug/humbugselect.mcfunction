@@ -1,0 +1,5 @@
+tag @s[tag=humbugO] add humbug1
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=humbugO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!humbugO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!humbugO] run item replace block -35 -54 -52 container.22 with minecraft:player_head[minecraft:custom_name={"text":"Humbug","italic":false},minecraft:lore=[{"text":"Damages Nearby Enemies","italic":false}],profile={id:[I;-519829247,2023705687,-2050156186,617020407],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY4NWVhOWNlMGQzNjY4NjkyMTU0NDM5ODU5ZDI4NjMxMDRiNDJmYTA4MjM3OGQ1MDRlYTY2NDQwODc1Y2JjMiJ9fX0="}]}] 1

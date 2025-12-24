@@ -1,0 +1,5 @@
+tag @s[tag=homunculusO] add homunculus
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=homunculusO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!homunculusO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!homunculusO] run item replace block -37 -54 -52 container.2 with minecraft:player_head[minecraft:custom_name={"text":"Homunculus","italic":false},minecraft:lore=[{"text":"Reduces Knockback","color":"dark_purple","italic":false}],profile={id:[I;-1104605478,-2051979913,-1932500803,-1336961035],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDY5MzRjMmRkMjA2NzMzZDcyNmU1ZDVlYzVjMTQ2OGU1ZWI5NzVlMWIxNzQ2MWRjMmE0NDU4OTRjNTU0N2VkMSJ9fX0="}]}] 1

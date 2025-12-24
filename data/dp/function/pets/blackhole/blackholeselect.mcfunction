@@ -1,0 +1,5 @@
+tag @s[tag=blackholeO] add blackhole
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=blackholeO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!blackholeO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!blackholeO] run item replace block -37 -54 -52 container.18 with minecraft:player_head[minecraft:custom_name={"text":"Black Hole","italic":false},minecraft:lore=[{"text":"Creates a Portal","color":"dark_purple","italic":false}],profile={id:[I;1763170657,314785825,-1523586551,-393230377],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU0NTFhNDM2NWM0OWI0MmQ3Y2Q0ZTA4ZjZlZDdiZTY2MTJlZTRkNzljZWVlMWMyMTBiNjNkMDZjMDUxNGI5YyJ9fX0="}]}] 1

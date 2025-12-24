@@ -1,0 +1,5 @@
+tag @s[tag=chronowlO] add chronowl
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=chronowlO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!chronowlO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!chronowlO] run item replace block -37 -54 -52 container.23 with minecraft:player_head[minecraft:custom_name={"text":"Chronowl","italic":false},minecraft:lore=[{"text":"Recharges Hero Ability","color":"dark_purple","italic":false}],profile={id:[I;1017369577,-999210404,-1108266715,-1178246843],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY4Yjk0MTJiY2QxNTYwYzQ2MjlhYzdjZjFkNmUyZDcxZGE2NGUxNzQzOGRlMGQ4OGM5NTIzYmMxMmRlZmM4ZSJ9fX0="}]}] 1

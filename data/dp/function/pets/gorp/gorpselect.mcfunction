@@ -1,0 +1,5 @@
+tag @s[tag=gorpO] add gorp
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=gorpO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!gorpO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!gorpO] run item replace block -37 -54 -52 container.19 with minecraft:player_head[minecraft:custom_name={"text":"G.O.R.P Ω","italic":false},minecraft:lore=[{"text":"The Future is Now","color":"dark_purple","italic":false}],profile={id:[I;-928804806,-2006497452,-1460303325,1378023462],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQzOGZjMGI3ODdkZDk4NzIxZmY3NjNkM2IyYjhkMzJhNDdmYmIwOGY0ZDQyNjY2ZjQ1NDY5YWE0OWFkOWE5ZiJ9fX0="}]}] 1

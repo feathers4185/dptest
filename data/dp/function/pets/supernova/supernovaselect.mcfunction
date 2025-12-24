@@ -1,0 +1,5 @@
+tag @s[tag=supernovaO] add supernova
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=supernovaO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!supernovaO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!supernovaO] run item replace block -35 -54 -52 container.15 with minecraft:player_head[minecraft:custom_name={"text":"Supernova","italic":false},minecraft:lore=[{"text":"Gives an Ender Pearl","color":"dark_purple","italic":false}],profile={id:[I;-509434006,-648395139,-1373835488,140538602],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg4MWM4NzY0ZmJmOTNiMjMxNWNhMTEzNTczZmE3OTlmNGNmZGMwY2E4NjhjODM0MDUyNTVhN2Q1NTZhNzM5ZiJ9fX0="}]}] 1

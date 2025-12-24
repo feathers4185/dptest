@@ -1,0 +1,5 @@
+tag @s[tag=broodmotherO] add broodmother
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=broodmotherO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!broodmotherO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!broodmotherO] run item replace block -37 -54 -52 container.1 with minecraft:player_head[minecraft:custom_name={"text":"Brood Mother","italic":false},minecraft:lore=[{"text":"Spawns an Alien Hive","color":"dark_purple","italic":false}],profile={id:[I;1314566696,-24491171,-2082477419,-1667916794],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBkMmMzOTYyZWYxZmI5MjE0NjAyNWUwNGFhZGQ3MTdjNjE0Y2QxMDk3NDYwYTVmNmJmNTljNDlkMTE2YzdiZCJ9fX0="}]}] 1

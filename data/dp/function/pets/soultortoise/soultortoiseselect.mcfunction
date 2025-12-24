@@ -1,0 +1,5 @@
+tag @s[tag=soultortoiseO] add soultortoise
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=soultortoiseO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!soultortoiseO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!soultortoiseO] run item replace block -37 -54 -52 container.21 with minecraft:player_head[minecraft:custom_name={"text":"Soul Tortoise","italic":false},minecraft:lore=[{"text":"Charges Souls to Unleash Massive Damage","color":"dark_purple","italic":false}],profile={id:[I;1847186049,295784034,-1255246208,-332889170],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg2OTU2NWIzMDhjODJkMzYyNjlhNzIzMTFmYWQ3NGEzZmYwNDk0ODIwZDhlMThkODU2ZmViOTVjOThmMjg3MiJ9fX0="}]}] 1

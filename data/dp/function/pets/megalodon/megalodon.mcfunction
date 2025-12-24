@@ -1,0 +1,5 @@
+tag @s[tag=megalodonO] add megalodon
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=megalodonO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!megalodonO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!megalodonO] run item replace block -35 -54 -52 container.18 with minecraft:player_head[minecraft:custom_name={"text":"Megalodon","italic":false},minecraft:lore=[{"text":"Executes nearby low health enemies","italic":false}],profile={id:[I;224015737,1439844338,-1874922624,-1771625071],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUyZTU4NjU0MjlkZDI1MjBiYmM3MDNlNGE5ZjJmMWFiZDVlMWNjNWQzMWI4YTlhY2JmNzRiN2E5N2M5MzdhYSJ9fX0="}]}] 1

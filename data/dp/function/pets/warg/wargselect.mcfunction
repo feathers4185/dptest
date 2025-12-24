@@ -1,0 +1,5 @@
+tag @s[tag=wargO] add warg
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=wargO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!wargO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!wargO] run item replace block -35 -54 -52 container.17 with minecraft:player_head[minecraft:custom_name={"text":"Warg","italic":false},minecraft:lore=[{"text":"Summons a wolf ally","italic":false}],profile={id:[I;645511887,1461666518,-1421606580,-419821124],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxNmVhZDg4NGYxMWUzNjZhMjgwNWJkODI2YjJlZTdlOTYxNmYwYjI5NTFiMGY2NzQ0ODAyNDg5NWM0NGZlNCJ9fX0="}]}] 1

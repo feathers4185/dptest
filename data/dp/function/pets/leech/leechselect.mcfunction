@@ -1,0 +1,5 @@
+tag @s[tag=leechO] add leech
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=leechO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!leechO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!leechO] run item replace block -37 -54 -52 container.3 with minecraft:player_head[minecraft:custom_name={"text":"Swamp Leech","italic":false},minecraft:lore=[{"text":"Summons a Powerful Swamp Monster on Kill","color":"dark_purple","italic":false}],profile={id:[I;-1789174978,507465722,112572184,1768405482],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19"}]}] 1

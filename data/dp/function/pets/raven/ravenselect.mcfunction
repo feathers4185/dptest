@@ -1,0 +1,5 @@
+tag @s[tag=ravenO] add raven
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=ravenO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!ravenO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!ravenO] run item replace block -35 -54 -52 container.20 with minecraft:player_head[minecraft:custom_name='{"text":"Raven","italic":false}',minecraft:lore=['{"text":"Temporarily blocks healing","italic":false}'],profile={id:[I;589457838,2134065748,-1250260047,-930972274],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMwNmZhMzNhZmMzN2NmODkyNDFhMWY4MDJkNWRlNmYwOWQzNWFkOTRkNGYxM2M1M2E3MGZlNmFiNTk2MTQ1OSJ9fX0="}]}] 1

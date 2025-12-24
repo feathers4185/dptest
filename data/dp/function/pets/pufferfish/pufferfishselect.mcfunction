@@ -1,0 +1,5 @@
+tag @s[tag=pufferfishO] add pufferfish
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=pufferfishO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!pufferfishO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!pufferfishO] run item replace block -35 -54 -52 container.25 with minecraft:player_head[minecraft:custom_name={"text":"Pufferfish","italic":false},minecraft:lore=[{"text":"Inflates and poisons enemies","color":"dark_purple","italic":false}],profile={id:[I;1922975457,1803373740,-1342701352,-2064739646],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE3YmMwZDc2YWM2ZGU3MzllOWU4NTcyNzkzMWVjODIzNDQ3Mzk3NDUyMDU5ZmYzODE0MWQzNzE3OWVkYmUxIn19fQ=="}]}] 1

@@ -1,0 +1,5 @@
+tag @s[tag=cheddarO] add cheddar
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=cheddarO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!cheddarO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!cheddarO] run item replace block -37 -54 -52 container.10 with minecraft:player_head[minecraft:custom_name={"text":"Dread Captain Cheddar","italic":false},minecraft:lore=[{"text":"Speads Scurvy to Enemies","color":"dark_purple","italic":false}],profile={id:[I;-1088511364,1004948801,-1829452966,-2145228050],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdjNzYyNGZjNDQ2Mzc0OWVkNTE2ZGYxYmJiYWE2N2MxNzJmZmM5ZjIwYjZmMmQ1YjgwZTM5Y2NmMDNkNWY3YSJ9fX0="}]}] 1

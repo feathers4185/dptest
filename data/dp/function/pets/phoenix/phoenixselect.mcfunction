@@ -1,0 +1,5 @@
+tag @s[tag=phoenixO] add phoenix
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=phoenixO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!phoenixO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!phoenixO] run item replace block -37 -54 -52 container.4 with minecraft:player_head[minecraft:custom_name={"text":"Phoenix","italic":false},minecraft:lore=[{"text":"Grants a fiery lifeline at low health","italic":false}],profile={id:[I;-1115691063,1442139504,-1674104502,-1547037504],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzI0MWI4M2Q5YjU5YjliNDM2NjBkMGNjZDE5Mzg4Y2Q3M2M2OTBiYTQ0M2FmMzRlOWRkN2UzMjE1MGY4OTEzIn19fQ=="}]}] 1

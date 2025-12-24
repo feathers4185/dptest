@@ -1,0 +1,5 @@
+tag @s[tag=clouddrakeO] add clouddrake
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=clouddrakeO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!clouddrakeO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!clouddrakeO] run item replace block -35 -54 -52 container.19 with minecraft:player_head[minecraft:custom_name={"text":"Cloud Drake","italic":false},minecraft:lore=[{"text":"Levitates ALL nearby players","italic":false}],profile={id:[I;768909202,-945861530,-1347853561,-246614509],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRiOGI3Y2E1NDA3NDgxYTg2MmE0NTE5ZGJiY2MxMTBiMjlhNDFiYTI3MWMxYTRkZjZkMzc4OTM3NWI2MGVlOCJ9fX0="}]}] 1

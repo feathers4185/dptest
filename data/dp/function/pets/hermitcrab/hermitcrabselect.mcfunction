@@ -1,0 +1,5 @@
+tag @s[tag=hermitcrabO] add hermitcrab
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=hermitcrabO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!hermitcrabO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!hermitcrabO] run item replace block -35 -54 -52 container.5 with minecraft:player_head[minecraft:custom_name={"text":"Hermit Crab","italic":false},minecraft:lore=[{"text":"Hides in its Shell","italic":false}],profile={id:[I;-212536021,-1082768989,-1107096347,-36476073],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJhNDFmZTEwYzBiN2RhZTZmODI5MTM0ZDE4YjRjYTQ3MTlhMDZhMDBmZTQ1OTk3NTQ2NDBiMzY0M2ZlODRmYiJ9fX0="}]}] 1

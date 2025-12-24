@@ -1,0 +1,5 @@
+tag @s[tag=ghostofchristmasO] add ghostofchristmas
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=ghostofchristmasO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!ghostofchristmasO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!ghostofchristmasO] run item replace block -35 -54 -52 container.10 with minecraft:player_head[minecraft:custom_name={"text":"Ghost of Christmas","italic":false},minecraft:lore=[{"text":"Lets you float on air","italic":false}],profile={id:[I;866419872,-1395178675,-2022714459,-1367154036],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQwNjYyOGNjZGVmMjZhN2E5OGQ4ODlkZmQyOTczMzQxYWI5ZjM1NGIwN2VjYzg3MTViMDQxZGUwNzI0OGQ0In19fQ=="}]}] 1

@@ -1,0 +1,5 @@
+tag @s[tag=flintO] add flint
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=flintO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!flintO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!flintO] run item replace block -37 -54 -52 container.11 with minecraft:player_head[minecraft:custom_name={"text":"Captain Flint","italic":false},minecraft:lore=[{"text":"Places Mines","italic":false}],profile={id:[I;866419872,-1395178675,-2022714459,-1367154036],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg1ZGU0ZDUwYWIxNDhmNjhmYTM3N2NkZDc2MGY5ZDIzZjIwZDUwM2IzZTFjMWFkNzQxMjAwMjljY2RjNzI5OSJ9fX0="}]}] 1

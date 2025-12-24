@@ -1,0 +1,5 @@
+tag @s[tag=droneO] add drone
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=droneO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!droneO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!droneO] run item replace block -37 -54 -52 container.0 with minecraft:player_head[minecraft:custom_name={"text":"Drone","italic":false},minecraft:lore=[{"text":"Spawns a Chestburster","color":"dark_purple","italic":false}],profile={id:[I;1314566696,-24491171,-2082477419,-1667916794],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRiNDgzMDc3ZDNiOTUyZGIxOGJlZThhMWEyNjk3MTM2N2UxNjFlOTM0N2RmZDFhN2IwMWMzNjk0Yjk3Y2Q5NSJ9fX0="}]}] 1

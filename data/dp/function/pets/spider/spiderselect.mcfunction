@@ -1,0 +1,5 @@
+tag @s[tag=spiderO] add spider
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=spiderO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!spiderO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!spiderO] run item replace block -35 -54 -52 container.21 with minecraft:player_head[minecraft:custom_name={"text":"Spider","italic":false},minecraft:lore=[{"text":"Spins Webs","italic":false}],profile={id:[I;-1892045815,-1776794905,-1081900783,-277767235],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ2ZDdjMTgwNmUyNDlmN2JkNjZmODVlYTRlMThjZjcxY2MwMDYyOWUwOGI1MzUwYTBiYTVjMDZmYWRmOTJkYSJ9fX0="}]}] 1

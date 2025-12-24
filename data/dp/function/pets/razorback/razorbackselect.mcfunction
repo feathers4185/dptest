@@ -1,0 +1,5 @@
+tag @s[tag=razorbackO] add razorback
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=razorbackO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!razorbackO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!razorbackO] run item replace block -35 -54 -52 container.6 with minecraft:player_head[minecraft:custom_name={"text":"Razorback","italic":false},minecraft:lore=[{"text":"Becomes enraged at low health","italic":false}],profile={id:[I;-1270007450,1544177037,-1714600308,731984584],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTViNzcwMzMxNzUzMjY4ZGYwYWY0YmMzOTk5ZDVlOTE5YjY1YTJmNTRjODUzMjdkMjNiYTZlODA3YzU2ZWIifX19"}]}] 1

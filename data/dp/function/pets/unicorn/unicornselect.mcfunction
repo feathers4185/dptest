@@ -1,0 +1,5 @@
+tag @s[tag=unicornO] add unicorn
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=unicornO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!unicornO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!unicornO] run item replace block -37 -54 -52 container.22 with minecraft:player_head[minecraft:custom_name='{"text":"Unicorn","italic":false}',minecraft:lore=['{"text":"Activates Rainbow Powers","color":"dark_purple","italic":false}'],profile={id:[I;1056161972,-861912259,-1804388913,1061961945],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBiMzNiN2EzYjI0Zjc2YmQ4MGE2NWMzYTkzM2U3MTg4YmUzNTg0ODczNDJiZTE0M2MyMmE3NTgwYjRkMDBlMSJ9fX0="}]}] 1

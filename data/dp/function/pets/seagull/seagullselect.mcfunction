@@ -1,0 +1,5 @@
+tag @s[tag=seagullO] add seagull
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=seagullO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!seagullO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!seagullO] run item replace block -37 -54 -52 container.13 with minecraft:player_head[minecraft:custom_name={"text":"Seagull","italic":false},minecraft:lore=[{"text":"Summons Angry Hatchlings","color":"dark_purple","italic":false}],profile={id:[I;351475406,-1807595388,-1908191145,1159663694],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNiZGU0MzExMWY2OWE3ZmRhNmVjNmZhZjIyNjNjODI3OTYxZjM5MGQ3YzYxNjNlZDEyMzEwMzVkMWIwYjkifX19"}]}] 1

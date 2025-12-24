@@ -1,0 +1,5 @@
+tag @s[tag=nutcrackerO] add nutcracker
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=nutcrackerO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!nutcrackerO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!nutcrackerO] run item replace block -35 -54 -52 container.23 with minecraft:player_head[minecraft:custom_name={"text":"Nutcracker","italic":false},minecraft:lore=[{"text":"Stuns Enemies","italic":false}],profile={id:[I;-1034086629,-1860875844,-1338317964,1870776582],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0MDdlNjZjODFiMTQ0M2MyZTdkZmM0ZDY1ODNlYjE5YzYyMmZhMjJmMzRmYmY5OWZlNmM0NWY3NmEifX19"}]}] 1

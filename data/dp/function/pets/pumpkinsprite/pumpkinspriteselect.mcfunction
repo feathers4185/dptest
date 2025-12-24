@@ -1,0 +1,5 @@
+tag @s[tag=pumpkinspriteO] add pumpkinsprite
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=pumpkinspriteO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!pumpkinspriteO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!pumpkinspriteO] run item replace block -37 -54 -52 container.7 with minecraft:player_head[minecraft:custom_name={"text":"Pumpkin Sprite","italic":false},minecraft:lore=[{"text":"Gives Special Candies","italic":false}],profile={id:[I;-33800964,-1705227729,-1464006060,-66278656],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBiZDIwMTI4YzcxMjEwNTA1ZDgwNjJhNTFhZTJhYmUwY2MzZmNhNTAxMDdmODlmMTJkM2E4ZDZkY2ZkYWVhMSJ9fX0="}]}] 1

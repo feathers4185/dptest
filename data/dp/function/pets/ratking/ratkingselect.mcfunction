@@ -1,0 +1,5 @@
+tag @s[tag=ratkingO] add ratking
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=ratkingO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!ratkingO] run tellraw @s "You don't have access to that pet, visit the stable to purchase pets"
+execute if entity @s[tag=!ratkingO] run item replace block -37 -54 -52 container.8 with minecraft:player_head[minecraft:custom_name={"text":"Rat King","italic":false},minecraft:lore=[{"text":"Gives a Random Trinket","italic":false}],profile={id:[I;-1180258089,1666794252,-1486607113,1750724612],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjYxN2RlZThlYjY5NTVhNWZkMTJmZjNkMzVmYTU5YjY0M2U2ODExNzBiMGVlM2U0MmI0NzVmNzU5ODdiYjQ2MiJ9fX0="}]}] 1

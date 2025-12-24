@@ -1,0 +1,5 @@
+tag @s[tag=goldenfrogO] add goldenfrog
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=goldenfrogO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!goldenfrogO] run tellraw @s "You haven't met the required Wins to use this pet"
+execute if entity @s[tag=!goldenfrogO] run item replace block -37 -54 -52 container.25 with minecraft:player_head[minecraft:custom_name={"text":"Golden Frog Idol","italic":false},minecraft:lore=[{"text":"Sacrifice Health to The Idol for Ancient Power","color":"dark_purple","italic":false}],profile={id:[I;-1088511364,1004948801,-1829452966,-2145228050],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlYzMzYTI2MTA2ZTQ1NjE2Njk0ZWJjNDYwMmMwZmUyMTZmYTk2MDE0YjIyYmJlMzE2N2RhYmJlODFiMGQ2NiJ9fX0="}]}] 1
