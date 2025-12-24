@@ -1,0 +1,4 @@
+tag @s add smileysfrog
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking] run tp @s -69 -52 -17 facing -72 -51 -17
+item replace block -35 -54 -52 container.1 with minecraft:player_head[minecraft:custom_name={"text":"Smileys Frog"},minecraft:lore=[{"text":"Jumps High","italic":false}],profile={id:[I;1526238932,-1094236219,-2050186183,1457710252],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI1YzRiNGI4MjQyMjVmYjE5NTI3ZDQyZWZmZDRkYjQxNTM4YTY4ZTc4ZTdlNjI0MWI4MjUyOWI5MjJiMmU5NSJ9fX0="}]}] 1

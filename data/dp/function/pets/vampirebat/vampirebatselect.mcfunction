@@ -1,0 +1,5 @@
+tag @s[tag=vampirebatO] add vampirebat
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=vampirebatO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!vampirebatO] run say You don't have access to that pet, visit the stable to purchase pets
+execute if entity @s[tag=!vampirebatO] run item replace block -35 -54 -52 container.4 with minecraft:player_head[minecraft:custom_name={"text":"Vampire Bat"},minecraft:lore=[{"text":"Drains the Life from Enemies","italic":false}],profile={id:[I;-1681647559,18696290,-2033772401,-292220938],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYxNjI4MTExM2ZmMzNkZjhlYjNiMDE1NjBhZjViODRmNWJjY2U3MDc4OWYyYjA2M2E1NGM2YWYzYWMxZTg2NSJ9fX0="}]}] 1

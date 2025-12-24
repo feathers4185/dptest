@@ -1,0 +1,4 @@
+tag @s add sonicsnail
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking] run tp @s -69 -52 -17 facing -72 -51 -17
+item replace block -35 -54 -52 container.0 with minecraft:player_head[minecraft:custom_name={"text":"Sonic Snail","color":"yellow","italic":false},minecraft:lore=[{"text":"Moves Fast","italic":false}],profile={id:[I;756109412,-1676394314,-1393779956,1475298275],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBhOTkzM2EzYjEwNDg5ZDM4ZjY5NTBjNGU2MjhiZmNmOWY3YTI3ZjhkODQ2NjZmMDRmMTRkNTM3NDI1Mjk3MiJ9fX0="}]}] 1

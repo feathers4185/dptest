@@ -1,0 +1,5 @@
+tag @s[tag=armordilloO] add armordillo
+execute if entity @s[tag=!keeperpicking] run clear @s minecraft:player_head
+execute if entity @s[tag=!keeperpicking,tag=armordilloO] run tp @s -69 -52 -17 facing -72 -51 -17
+execute if entity @s[tag=!armordilloO] run say You don't have access to that pet, visit the stable to purchase pets
+execute if entity @s[tag=!armordilloO] run item replace block -35 -54 -52 container.7 with minecraft:player_head[minecraft:custom_name={"text":"Armordillo","italic":false},minecraft:lore=[{"text":"Gains Defense","italic":false}],profile={id:[I;-832836827,924142086,-1714535390,1144310567],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U0ZDUwZTViZTM1MjE2ZjkxNTliODdiNmEzMzU2MzA5ZjU3NGE1NDE5NzY4NTg4NDhmY2FiYjI3YjY3Y2YxYyJ9fX0="}]}] 1
