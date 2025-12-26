@@ -1,0 +1,7 @@
+tag @s add guard
+clear @s minecraft:player_head
+tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},minecraft:custom_name={"text":"Guard","italic":false},minecraft:lore=[{"text":"Blocks Attacks","color":"blue","italic":false}],profile={id:[I;1988186987,1889290261,-1886887718,1287579975],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY2NzdmMmU0Yzc2MDJhNjNjNDRlYmRhZTUzNzBlMjQ4MWM1NWY2MzQ1NDY5ODllODA1M2VkZTU4NTIwODg0NiJ9fX0="}]}] 1
+item replace entity @s armor.chest with iron_chestplate[trim={material:"minecraft:gold",pattern:"minecraft:sentry"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with iron_leggings[trim={material:"minecraft:lapis",pattern:"minecraft:sentry"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with iron_boots[trim={material:"minecraft:gold",pattern:"minecraft:wayfinder"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

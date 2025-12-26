@@ -1,0 +1,7 @@
+tag @s add atlantean
+clear @s minecraft:player_head
+tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[minecraft:custom_name={"text":"Atlantean","italic":false},minecraft:lore=[{"text":"Throws a Trident","color":"blue","italic":false}],profile={id:[I;-1773953623,-1173208964,-1572180447,-1645174076],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ5ZDVkODljYzJlODY4NjcxYzQ1MWJkNjQ4NjEwZWIwY2YzYzEwYzlmYmIxNjY2MzVlYzUyYjc4Mjc5MWI2ZSJ9fX0="}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:tide,material:diamond},enchantments={binding_curse:1},dyed_color=2335116]
+item replace entity @s armor.legs with leather_leggings[trim={pattern:tide,material:diamond},enchantments={binding_curse:1},dyed_color=2335116]
+item replace entity @s armor.feet with leather_boots[trim={pattern:tide,material:diamond},enchantments={binding_curse:1},dyed_color=2335116]

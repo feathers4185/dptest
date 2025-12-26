@@ -1,0 +1,7 @@
+tag @s add alchemist
+clear @s minecraft:player_head
+tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},minecraft:custom_name={"text":"Alchemist","italic":false},minecraft:lore=[{"text":"Has a Mana Shield","color":"blue","italic":false}],profile={id:[I;-476222869,-584105067,-2143613535,1922744706],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRkOGZlY2RiYTE5ODViYWFjNGRmOWMzZjEzZTQzMjE2NTNmNmNhMWU2M2I3YTBmZjc4ZGNkNzNlM2YwZDVjOCJ9fX0="}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:eye,material:gold},enchantments={binding_curse:1},dyed_color=1908001]
+item replace entity @s armor.legs with leather_leggings[trim={pattern:spire,material:gold},enchantments={binding_curse:1},dyed_color=1908001]
+item replace entity @s armor.feet with leather_boots[trim={pattern:eye,material:gold},enchantments={binding_curse:1},dyed_color=1908001]
