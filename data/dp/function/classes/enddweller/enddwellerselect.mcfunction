@@ -2,3 +2,6 @@ tag @s add enddweller
 clear @s minecraft:player_head
 tp @s 6 5 6
 item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},custom_name={"text":"End Dweller","italic":false},minecraft:lore=[{"text":"Teleports","color":"blue","italic":false},],profile={id:[I;941709583,-1008267588,51773740,1158728705],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc3MDVlNjlkZTRhZWE0ZWJiY2FlNmYzOTQ4ZGQ5NDdkOGExZTljYWQ5YzdkZWRiNTk2YmMyOTQxNTUifX19"}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:dune,material:"minecraft:amethyst"},dyed_color=1908001,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:dune,material:"minecraft:amethyst"},dyed_color=1908001,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:dune,material:"minecraft:amethyst"},dyed_color=1908001,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

@@ -3,6 +3,8 @@
       "dp:tick",
       "dp:heroselect",
       "dp:petselect",
-      "dp:classselect"
+      "dp:classselect",
+      "dp:safe",
+      "dp:scaffolding"
     ]
   }

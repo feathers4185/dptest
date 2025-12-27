@@ -1,0 +1,2 @@
+execute unless score pufferfish pets matches 1.. run execute unless entity @a[tag=hexed,tag=zoggs] run execute unless entity @a[tag=biggnome,tag=zoggs] run attribute @p[tag=zoggs] minecraft:scale base set 0.8
+execute unless score pufferfish pets matches 1.. run execute unless entity @a[tag=hexed,tag=lyra] run execute unless entity @a[tag=biggnome,tag=lyra] run attribute @p[tag=lyra] minecraft:scale base set 0.8
