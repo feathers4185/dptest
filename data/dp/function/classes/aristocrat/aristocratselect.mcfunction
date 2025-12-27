@@ -2,6 +2,6 @@ tag @s add aristocrat
 clear @s minecraft:player_head
 tp @s 6 5 6
 item replace entity @s armor.head with minecraft:player_head[minecraft:custom_name={"text":"Aristocrat","italic":false},minecraft:lore=[{"text":"Rides a Pony","color":"blue","italic":false}],profile={id:[I;166152864,-785430302,-2052030020,655446032],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjZlOWMzYjM2OWExZTgwOGUwNDgzMDI5NDUwNDMxOGRhNjU1ZDE1ZGE1ZDlmMDdkZDZiN2ZkYmJhZGMxOTdhZiJ9fX0="}]}] 1
-item replace entity @s armor.chest with leather_chestplate[trim={pattern:vex,material:quartz},enchantments={binding_curse:1},dyed_color=6825251]
-item replace entity @s armor.legs with leather_leggings[trim={pattern:vex,material:quartz},enchantments={binding_curse:1},dyed_color=6825251]
-item replace entity @s armor.feet with leather_boots[trim={pattern:vex,material:quartz},enchantments={binding_curse:1},dyed_color=6825251]
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:"minecraft:vex",material:"minecraft:quartz"},dyed_color=6825251,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:"minecraft:vex",material:"minecraft:quartz"},dyed_color=6825251,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:"minecraft:vex",material:"minecraft:quartz"},dyed_color=6825251,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

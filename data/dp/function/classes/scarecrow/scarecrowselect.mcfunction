@@ -1,3 +1,4 @@
 tag @s add scarecrow
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},minecraft:custom_name={"text":"Scarecrow","italic":false},minecraft:lore=[{"text":"Becomes Immobile and Weak for Greater Reach","color":"blue","italic":false}],profile={id:[I;-1710732760,1633109965,-1962108605,1205368469],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTY4NTgxM2FiNDQxZTI4ZWQ3MzA3NjFiY2UxYmI2ZmQ4OTNkZjg1ZDdkNTNmMmNiNjgzZDkwNzE2YWNhOTM2OSJ9fX0="}]}] 1

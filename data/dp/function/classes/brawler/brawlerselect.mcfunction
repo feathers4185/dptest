@@ -1,3 +1,7 @@
 tag @s add brawler
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},:custom_name={"text":"Brawler","italic":false},minecraft:lore=[{"text":"K.Os Opponents","color":"blue","italic":false}],profile={id:[I;-1211750110,1738687427,-1575738282,1022361687],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQyMGE2NjUyMmIzYTRmN2ZkYTkzNGQyNjJmNWNhNTI0ZWQ4ZjYwOWNhNTdhYmVmNWMzNTU0NjZmOTZhZTUifX19"}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:vex,material:"minecraft:redstone"},dyed_color=9185572,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:vex,material:"minecraft:redstone"},dyed_color=9185572,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:vex,material:"minecraft:redstone"},dyed_color=9185572,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

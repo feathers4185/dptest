@@ -1,3 +1,7 @@
 tag @s add beastmaster
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[minecraft:custom_name={"text":"The Beastmaster","italic":false},enchantments={"minecraft:binding_curse":1},minecraft:lore=[{"text":"Say Hello to My Little Friend","color":"blue","italic":false}],profile={id:[I;-1424317074,717899067,-1148602954,-1206579810],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc0ZjdiYTNjYTM3ODc2ZTBmOTcyN2NkMzA5Mjg0ODM0YTRjNjQ0MTMyOGNjNDE0Y2YzZTg0ZjEwMWUwZjYxMyJ9fX0="}]}] 1
+item replace entity @s armor.chest with netherite_chestplate[trim={pattern:rib,material:"minecraft:quartz"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with netherite_leggings[trim={pattern:rib,material:"minecraft:quartz"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with netherite_boots[trim={pattern:silence,material:"minecraft:quartz"},unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

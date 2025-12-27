@@ -1,3 +1,7 @@
 tag @s add buccaneer
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},custom_name={"text":"Buccaneer","italic":false},minecraft:lore=[{"text":"Hardy Pirate with Out-of-Combat Buffs","color":"blue","italic":false}],profile={id:[I;741326104,315179623,-1903878829,1147520582],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIxYzkwZTY3ODk0ZWFkZDAxMTIwNzdiMDllZTdkOWIzMDBlNmFmZTkyNWJhY2NiNjQ4OTA0Y2UxYTZjMTU0NyJ9fX0="}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:vex,material:"minecraft:gold"},dyed_color=11546150,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:tide,material:"minecraft:copper"},dyed_color=8606770,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:tide,material:"minecraft:quartz"},dyed_color=1908001,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

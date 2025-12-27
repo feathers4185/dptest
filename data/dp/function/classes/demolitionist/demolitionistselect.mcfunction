@@ -1,3 +1,4 @@
 tag @s add demolitionist
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},custom_name={"text":"Demolitionist","italic":false},minecraft:lore=[{"text":"Summons Creepers","color":"blue","italic":false}],profile={id:[I;-1510802654,-516600056,-1203896096,1661288329],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY4NzRiYjViNmVmN2IzNDM0YTU4YjMxNDk2MjUyMTg2Mjk1YzM3OWJlOTk2OTM0ZDEwM2QxNWVhMjI1Y2JhMyJ9fX0="}]}] 1

@@ -1,3 +1,7 @@
 tag @s add berserker
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[minecraft:custom_name={"text":"Berserker","italic":false},enchantments={"minecraft:binding_curse":1},minecraft:lore=[{"text":"Swaps Stances","color":"blue","italic":false}],profile={id:[I;-690507072,-157070671,-1920617664,-1501045999],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ0YzQ5MjIxMjBiNTMzMDBhYmMxMWI5ZTEyNzI4ZjNiNWNjNjIxNDYxNDU5NmIxYzdjOTA2YWYxMjdmMDY3YiJ9fX0="}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:wild,material:"minecraft:iron"},dyed_color=6968645,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:rib,material:"minecraft:iron"},dyed_color=6968645,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:wild,material:"minecraft:iron"},dyed_color=6968645,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1

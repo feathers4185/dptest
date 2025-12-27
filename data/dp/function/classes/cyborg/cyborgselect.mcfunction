@@ -1,3 +1,7 @@
 tag @s add cyborg
 clear @s minecraft:player_head
 tp @s 6 5 6
+item replace entity @s armor.head with minecraft:player_head[enchantments={binding_curse:1},custom_name={"text":"Cyborg","italic":false},minecraft:lore=[{"text":"Upgrades & Adapts","color":"blue","italic":false}],profile={id:[I;960249353,-1436007802,-1835107273,-1348849087],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRlYmFhZTgwYzZiMjMxM2EwY2VkOGFmMmE0ZTkwNDY2MjU1MzEyYzc1MmY0YTUzOWE1M2Y5ZjlhMzkyYzNmYiJ9fX0="}]}] 1
+item replace entity @s armor.chest with leather_chestplate[trim={pattern:dune,material:"minecraft:redstone"},dyed_color=4673362,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @s armor.legs with leather_leggings[trim={pattern:dune,material:"minecraft:redstone"},dyed_color=4673362,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
+item replace entity @p armor.feet with leather_boots[trim={pattern:dune,material:"minecraft:redstone"},dyed_color=4673362,unbreakable={},attribute_modifiers=[{id:"armor",type:"armor",amount:0,operation:"add_value"}],enchantments={"minecraft:binding_curse":1}] 1
